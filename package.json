@@ -1,0 +1,63 @@
+{
+  "name": "MotherhoodApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android-bundle": "mkdir -p android/app/src/main/assets && react-native bundle --platform android --dev true --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone X\"",
+    "iosSE": "react-native run-ios --simulator=\"iPhone SE\"",
+    "apk": "cd android && ./gradlew assembleRelease",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint \"./**/*.{js,jsx}\""
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/Cabin"
+    ]
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-native-fontawesome": "^0.1.0",
+    "@react-navigation/core": "^3.4.2",
+    "intl": "^1.2.5",
+    "prop-types": "^15.7.2",
+    "react": "16.8.3",
+    "react-native": "0.59.3",
+    "react-native-svg": "^9.5.1",
+    "yup": "^0.27.0",
+    "react-native-web": "^0.11.4",
+    "rn-viewpager": "^1.2.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/runtime": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.7.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.13.0",
+    "fs-extra": "^7.0.1",
+    "jest": "^24.7.1",
+    "metro-react-native-babel-preset": "^0.53.1",
+    "prettier": "^1.17.1",
+    "react-test-renderer": "16.8.3",
+    "replace-in-file": "^3.4.4"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

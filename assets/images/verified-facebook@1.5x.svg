@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>icon/verified-facebook@1.5x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+    </defs>
+    <g id="Minder-Profile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-292.000000, -1100.000000)" id="Certificates">
+            <g transform="translate(0.000000, 956.000000)">
+                <g id="Verified-Facebook" transform="translate(283.000000, 144.000000)">
+                    <g id="icon/verified-facebook" transform="translate(9.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Base" fill="#F4F4F4" xlink:href="#path-1"></use>
+                        <path d="M19.6987435,8.00332907 L17.7799073,8 C15.6241606,8 14.2310223,9.5455198 14.2310223,11.9376216 L14.2310223,13.7531288 L12.3017183,13.7531288 C12.1350036,13.7531288 12,13.8992749 12,14.0795439 L12,16.710007 C12,16.890276 12.1351575,17.0362556 12.3017183,17.0362556 L14.2310223,17.0362556 L14.2310223,23.6737513 C14.2310223,23.8540204 14.3660259,24 14.5327407,24 L17.0499336,24 C17.2166484,24 17.3516519,23.8538539 17.3516519,23.6737513 L17.3516519,17.0362556 L19.6074583,17.0362556 C19.7741731,17.0362556 19.9091766,16.890276 19.9091766,16.710007 L19.9101003,14.0795439 C19.9101003,13.9929882 19.8782351,13.9100944 19.8217399,13.8488395 C19.7652447,13.7875847 19.6882757,13.7531288 19.608228,13.7531288 L17.3516519,13.7531288 L17.3516519,12.2141007 C17.3516519,11.4743818 17.5146722,11.0988629 18.4058189,11.0988629 L19.6984356,11.0983636 C19.8649964,11.0983636 20,10.9522175 20,10.7721149 L20,8.32957773 C20,8.14964161 19.8651504,8.00366197 19.6987435,8.00332907 Z" id="Path" fill="#9B3FD9" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
